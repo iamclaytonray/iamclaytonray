@@ -29,41 +29,44 @@ const ContactPage = () => {
           <a href="mailto:iamclaytonray@gmail.com">iamclaytonray@gmail.com</a>.
           Thanks!
         </Typography>
-        {/* <Col>
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            value={state.message}
-            onChange={(e: any) => setState({ name: e.target.value })}
-          />
-        </Col>
-        <Col>
-          <input
-            type="text"
-            name="email"
-            placeholder="Email"
-            value={state.email}
-            onChange={(e: any) => setState({ email: e.target.value })}
-          />
-        </Col>
-        <Col>
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone"
-            value={state.phone}
-            onChange={(e: any) => setState({ phone: e.target.value })}
-          />
-        </Col>
-        <Col>
-          <textarea
-            name="message"
-            placeholder="Message"
-            value={state.message}
-            onChange={(e: any) => setState({ message: e.target.value })}
-          />
-        </Col> */}
+        <form name="contact" method="POST" data-netlify="true">
+          <Col>
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              value={state.message}
+              onChange={(e: any) => setState({ name: e.target.value })}
+            />
+          </Col>
+          <Col>
+            <input
+              type="text"
+              name="email"
+              placeholder="Email"
+              value={state.email}
+              onChange={(e: any) => setState({ email: e.target.value })}
+            />
+          </Col>
+          <Col>
+            <input
+              type="text"
+              name="phone"
+              placeholder="Phone"
+              value={state.phone}
+              onChange={(e: any) => setState({ phone: e.target.value })}
+            />
+          </Col>
+          <Col>
+            <textarea
+              name="message"
+              placeholder="Message"
+              value={state.message}
+              onChange={(e: any) => setState({ message: e.target.value })}
+            />
+          </Col>
+          <button type="submit">Send</button>
+        </form>
       </Row>
     </Layout>
   );
