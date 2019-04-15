@@ -1,0 +1,131 @@
+.social-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid none;
+  border-radius: 4px;
+  box-shadow: 0 0 30px #ddd;
+  background-color: #fff;
+  padding: 10px;
+  transition: all 300ms ease;
+  text-align: center;
+  margin-right: 25px;
+  font-size: 22px;
+  &:hover {
+    color: #fff;
+  }
+  &:hover.github {
+    background-color: $github;
+  }
+  &:hover.twitter {
+    background-color: $twitter;
+  }
+  &:hover.instagram {
+    background: -webkit-radial-gradient(
+      20px 120px,
+      #ffda75 18%,
+      #ff3a49 43%,
+      #ff3a49 50%,
+      #e518a1 70%,
+      #6634e1 100%
+    );
+  }
+  &:hover.anchor {
+    background-color: $anchor;
+  }
+  &:hover.medium {
+    background-color: $medium;
+  }
+  &:hover.youtube {
+    background-color: $youtube;
+  }
+}
+
+/* Facebook blue */
+/* #3B5998 */
+
+// .o-media-links-item > :first-child {
+//   transition: 500ms all ease;
+//   -webkit-filter: blur(0px);
+// }
+// .o-media-links-item:hover {
+//   -webkit-filter: blur(0px);
+//   transform: scale3d(0.95, 0.95, 0.95);
+// }
+// .o-media-links-item:hover > :first-child {
+//   -webkit-filter: blur(0px);
+//   transform: scale3d(1.1, 1.1, 1.1);
+// }
+// .o-media-links-item span {
+//   color: #222;
+//   font-size: 3rem;
+// }
+// .o-media-links-item.instagram {
+//   background: -webkit-radial-gradient(
+//     50px 220px,
+//     #ffda75 18%,
+//     #ff3a49 43%,
+//     #ff3a49 50%,
+//     #e518a1 70%,
+//     #6634e1 100%
+//   );
+// }
+// .o-media-links-item.google {
+//   /* FF3.6-15 */
+//   background-image: repeating-linear-gradient(
+//     90deg,
+//     #4285f4,
+//     #4285f4 10px,
+//     #34a853 40px,
+//     #fbbc05 80px,
+//     #ea4335 130px,
+//     #ea4335 140px
+//   );
+// }
+// .o-media-links-item.google,
+// .o-media-links-item.instagram {
+//   position: relative;
+// }
+// .o-media-links-item.google::before,
+// .o-media-links-item.instagram::before {
+//   transition: 500ms all ease;
+//   display: block;
+//   content: ' ';
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   background-color: #fff;
+//   border-radius: 0.7rem;
+// }
+// .o-media-links-item:hover span {
+//   color: #fff;
+// }
+// .o-media-links-item:hover.facebook {
+//   background-color: #3b5998;
+// }
+// .o-media-links-item:hover.twitter {
+//   background-color: #55acee;
+// }
+// .o-media-links-item:hover.anchor {
+//   background-color: #8940fa;
+// }
+// .o-media-links-item:hover.medium {
+//   background-color: #00ab6c;
+// }
+// .o-media-links-item:hover.apple {
+//   background-color: #a7a9ac;
+// }
+// .o-media-links-item:hover.instagram::before,
+// .o-media-links-item:hover.google::before {
+//   opacity: 0;
+// }
+// .o-media-links-item:hover.snapchat {
+//   background-color: #fffc00;
+// }
+// .o-media-links-item:hover.snapchat span {
+//   color: #000;
+// }

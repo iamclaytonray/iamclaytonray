@@ -1,0 +1,27 @@
+@import '../../assets/scss/variables';
+
+.card {
+  border: 1px solid none;
+  border-radius: 4px;
+  box-shadow: 0 0 20px #eee;
+  background-color: $white;
+  padding: 25px;
+  min-height: 300px;
+  height: auto;
+  margin-bottom: 50px;
+  transition: all 500ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 20px #ddd;
+  }
+}
+
+.card-title {
+  font-size: 18px;
+  color: $black;
+}
+
+.card-description {
+  color: $black;
+  white-space: pre-wrap;
+  text-align: justify;
+}
