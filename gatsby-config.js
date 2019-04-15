@@ -29,7 +29,7 @@ module.exports = {
         icon: `src/assets/images/sdb-logo.png`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sitemap',
+    // 'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
   ],
 };
