@@ -4,10 +4,12 @@ import { Card } from '../components/Card';
 import { projects } from '../data/open-source';
 import { Layout } from '../components/Layout';
 import { Row, Col } from 'antd';
+import { SEO } from '../components/SEO';
 
 const OpenSourcePage = () => {
   return (
     <Layout>
+      <SEO title="Open Source" />
       <Row style={{ marginTop: '5%', padding: 24 }} gutter={24}>
         {projects.map(project => (
           <Col key={project.id} span={8}>

@@ -15,6 +15,7 @@ import { Chip } from '../components/Chip';
 import '../assets/scss/resume.scss';
 import { Row, Col } from 'antd';
 import { Layout } from '../components/Layout';
+import { SEO } from '../components/SEO';
 
 const JobSection = () => (
   <div className="section__experience">
@@ -127,6 +128,7 @@ const DevOpsSection = () => (
 const ResumePage = () => {
   return (
     <Layout>
+      <SEO title="Resume" />
       <div>
         <div className="intro-section">
           <h1>Clayton Ray</h1>
