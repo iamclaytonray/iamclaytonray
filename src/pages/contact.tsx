@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col, Typography } from 'antd';
+import { Row, Col, Typography, Button } from 'antd';
 import { Layout } from '../components/Layout';
 import { SEO } from '../components/SEO';
 
@@ -66,8 +66,10 @@ const ContactPage = () => {
                 setState({ ...state, message: e.target.value })
               }
             />
+            <Button type="primary" block htmlType="submit">
+              Send
+            </Button>
           </Col>
-          <button type="submit">Send</button>
         </form>
       </Row>
     </Layout>
