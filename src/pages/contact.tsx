@@ -13,7 +13,7 @@ interface State {
 }
 
 const ContactPage = () => {
-  const [state, setState] = React.useState<Partial<State>>({
+  const [state, setState] = React.useState<State>({
     name: '',
     email: '',
     phone: '',
@@ -23,12 +23,6 @@ const ContactPage = () => {
     <Layout>
       <SEO title="Contact" />
       <Row style={{ marginTop: '5%', padding: 24 }} gutter={24}>
-        <Typography>
-          My contact form is currently not working. It could be but I'm off
-          working on other projects. For now, just email me at{' '}
-          <a href="mailto:iamclaytonray@gmail.com">iamclaytonray@gmail.com</a>.
-          Thanks!
-        </Typography>
         <form name="contact" method="POST" data-netlify="true">
           <Col>
             <input
@@ -36,7 +30,9 @@ const ContactPage = () => {
               name="name"
               placeholder="Name"
               value={state.message}
-              onChange={(e: any) => setState({ name: e.target.value })}
+              onChange={(e: any) =>
+                setState({ ...state, name: e.target.value })
+              }
             />
           </Col>
           <Col>
@@ -45,7 +41,9 @@ const ContactPage = () => {
               name="email"
               placeholder="Email"
               value={state.email}
-              onChange={(e: any) => setState({ email: e.target.value })}
+              onChange={(e: any) =>
+                setState({ ...state, email: e.target.value })
+              }
             />
           </Col>
           <Col>
@@ -54,7 +52,9 @@ const ContactPage = () => {
               name="phone"
               placeholder="Phone"
               value={state.phone}
-              onChange={(e: any) => setState({ phone: e.target.value })}
+              onChange={(e: any) =>
+                setState({ ...state, phone: e.target.value })
+              }
             />
           </Col>
           <Col>
@@ -62,7 +62,9 @@ const ContactPage = () => {
               name="message"
               placeholder="Message"
               value={state.message}
-              onChange={(e: any) => setState({ message: e.target.value })}
+              onChange={(e: any) =>
+                setState({ ...state, message: e.target.value })
+              }
             />
           </Col>
           <button type="submit">Send</button>

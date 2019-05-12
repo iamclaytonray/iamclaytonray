@@ -10,15 +10,16 @@ const AppsPage = () => {
     <Layout>
       <SEO title="Apps" />
       <Row style={{ marginTop: '5%', padding: 24 }} gutter={24}>
-        {apps.map(app => (
-          <Col key={app.id} span={8}>
-            <Card
-              title={app.title}
-              link={app.link}
-              description={app.description}
-            />
-          </Col>
-        ))}
+        {apps &&
+          apps.map(app => (
+            <Col key={app.id} span={8}>
+              <Card
+                title={app.title}
+                link={app.link}
+                description={app.description}
+              />
+            </Col>
+          ))}
       </Row>
     </Layout>
   );
