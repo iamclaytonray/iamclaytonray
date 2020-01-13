@@ -138,21 +138,16 @@ export const devOps: Skill[] = [
 ];
 
 export const jobs = [
-  {
+   {
     logo: medconnectlogo,
-    employer: 'MedConnect',
-    title: 'Full Stack Developer',
+    employer: 'Circadian Risk',
+    title: 'Software Engineer',
     description: `
     <ul>
-      <li>Built the backend APIs/endpoints for this chat application.</li>
-      <li>Currently building a tree for chat “bot” responses that will be compiled to WASM and run in the browser. (Source in Rust)</li>
-      <li>Setup CDN on AWS CloudFront for clinics that will embed this chat application into their website.</li>
-      <li>Setup other AWS services, such as SES and SNS, to manage communications and RDS to manage production Postgres persistence layer.</li>
-      <li>Started building the admin interface for clinics who want/need to generate reports, view past reports, and overall management. This UI allows clinics & practitioners to add others and determine their roles, which are coupled to our authorization roles.</li>
     </ul>
     `,
-    fromDate: '06/2018',
-    toDate: '12/2018',
+    fromDate: '08/2019',
+    toDate: 'Present',
     tags: [
       'Node',
       'React',
@@ -161,6 +156,25 @@ export const jobs = [
       'Data Structures',
       'Algorithms',
       'AWS',
+    ],
+  },
+  {
+    logo: medconnectlogo,
+    employer: 'MedConnect',
+    title: 'Full Stack Developer',
+    description: `
+    <ul>
+      <li>Created an embedable chat widget via a CDN</li>
+    </ul>
+    `,
+    fromDate: '06/2018',
+    toDate: '12/2018',
+    tags: [
+      'Node',
+      'React',
+      'React Native',
+      'TypeScript',
+      'Postgres',
     ],
   },
   {
