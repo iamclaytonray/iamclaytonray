@@ -147,7 +147,7 @@ export const jobs = [
     </ul>
     `,
     fromDate: '08/2019',
-    toDate: 'Present',
+    toDate: '02/2020',
     tags: [
       'Node',
       'React',
