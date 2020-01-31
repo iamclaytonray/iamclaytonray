@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col, Typography, Button } from 'antd';
+import { Row, Col, Button } from 'antd';
 import { Layout } from '../components/Layout';
 import { SEO } from '../components/SEO';
 

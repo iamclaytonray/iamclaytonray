@@ -138,7 +138,7 @@ export const devOps: Skill[] = [
 ];
 
 export const jobs = [
-   {
+  {
     logo: medconnectlogo,
     employer: 'Circadian Risk',
     title: 'Software Engineer',
@@ -151,11 +151,10 @@ export const jobs = [
     tags: [
       'Node',
       'React',
+      'React Native',
       'TypeScript',
       'Postgres',
-      'Data Structures',
-      'Algorithms',
-      'AWS',
+      'Sequelize',
     ],
   },
   {
@@ -169,13 +168,7 @@ export const jobs = [
     `,
     fromDate: '06/2018',
     toDate: '12/2018',
-    tags: [
-      'Node',
-      'React',
-      'React Native',
-      'TypeScript',
-      'Postgres',
-    ],
+    tags: ['Node', 'React', 'React Native', 'TypeScript', 'Postgres'],
   },
   {
     logo: sixtyfourlabs,
