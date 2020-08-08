@@ -16,12 +16,6 @@ export const Header = () => (
         <Link activeClassName="active" to="/open-source">
           Open Source
         </Link>
-        <Link activeClassName="active" to="/resume">
-          Resume
-        </Link>
-        <Link activeClassName="active" to="/contact">
-          Contact
-        </Link>
       </div>
     </nav>
   </header>
