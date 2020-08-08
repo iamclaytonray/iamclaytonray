@@ -139,7 +139,7 @@ export const devOps: Skill[] = [
 
 export const jobs = [
   {
-    logo: medconnectlogo,
+    logo: 'https://www.circadianrisk.com/assets/images/favicon.png',
     employer: 'Circadian Risk',
     title: 'Software Engineer',
     description: `
