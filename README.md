@@ -2,7 +2,7 @@
 
 I'm a technical founder living in Bangkok, Thailand (but from the US). 
 
-## 🚀 Projects
+## 🚀 Products
 
 ### [OtterHalf](https://tryotterhalf.com)
 OtterHalf is a dating platform focused on fostering meaningful and intentional relationships. We take a fresh approach to dating with features like:
