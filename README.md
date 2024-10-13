@@ -16,8 +16,8 @@ invoices.dev simplifies invoicing for developers and freelancers:
 - **Integrations**: Seamlessly works with GitHub, Google Calendar, Linear, and Slack.
 - **Custom Workflows**: Tailored invoicing based on your project’s needs with adjustable time tracking and expense reporting.
 
-### [SlackPath](https://slackpath.ai)
-SlackPath helps remote teams communicate more effectively:
+### [trylexa.ai](https://slackpath.ai](https://trylexa.ai/)
+LexaAI helps remote teams communicate more effectively:
 - **AI-Driven Insights**: Our tool analyzes conversations to help teams communicate with empathy and clarity.
 - **Emotional Analysis**: Detects emotions like frustration and confusion in messages to resolve misunderstandings early.
 - **Team Health Metrics**: Gain insight into your team's communication patterns to improve overall productivity and mental health.
@@ -26,4 +26,4 @@ SlackPath helps remote teams communicate more effectively:
 - Email: iamclaytonray@gmail.com
 - [OtterHalf](https://tryotterhalf.com)
 - [invoices.dev](https://invoices.dev)
-- [SlackPath](https://slackpath.ai)
+- [trylexa.ai](https://trylexa.ai)
