@@ -16,7 +16,7 @@ invoices.dev simplifies invoicing for developers and freelancers:
 - **Integrations**: Seamlessly works with GitHub, Google Calendar, Linear, and Slack.
 - **Custom Workflows**: Tailored invoicing based on your project’s needs with adjustable time tracking and expense reporting.
 
-### [trylexa.ai](https://slackpath.ai](https://trylexa.ai/)
+### [trylexa.ai](https://trylexa.ai/)
 LexaAI helps remote teams communicate more effectively:
 - **AI-Driven Insights**: Our tool analyzes conversations to help teams communicate with empathy and clarity.
 - **Emotional Analysis**: Detects emotions like frustration and confusion in messages to resolve misunderstandings early.
