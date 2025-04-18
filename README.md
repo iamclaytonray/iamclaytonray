@@ -1,12 +1,10 @@
 # Hi, I'm Clay! 👋
 
-## 🚀 Products
+Available for hire!
 
-### [OtterHalf](https://tryotterhalf.com)
-OtterHalf is a social network and dating platform focused on fostering meaningful and intentional relationships. We take a fresh approach to dating with features like:
-- **One Match at a Time**: No swiping; only one match until you've made a meaningful connection.
-- **Verified Users**: Identity verification for all users ensures a safe and authentic experience.
-- 
+I'm building some awesome tools. Check them out below.
+
+## 🚀 Products
 
 ### [invoices.dev](https://invoices.dev)
 invoices.dev simplifies invoicing for developers and freelancers:
@@ -21,6 +19,5 @@ LexaAI helps remote teams communicate more effectively:
 
 ## 📫 Get in Touch
 - Email: iamclaytonray@gmail.com
-- [OtterHalf](https://tryotterhalf.com)
 - [invoices.dev](https://invoices.dev)
 - [trylexa.ai](https://trylexa.ai)
