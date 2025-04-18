@@ -1,8 +1,14 @@
 # Hi, I'm Clay! 👋
 
-Available for hire!
+Available for hire! Want to read my pitch deck for why you want and need me? Done.
+-> https://pitch.com/v/copy-of-clayton-ray-a87jhr
 
-I'm building some awesome tools. Check them out below.
+Impressive Highlight:
+- Ex cofounder / founding engineer @ Teach Me To (https://teachme.to)
+  - Went from idea to profitable two-sided marketplace in less than 2 years
+  - Multiple fundraising rounds (2 angels, 1 VC)
+  - Wrote 98%-99% of the code for 2 years
+  - Had my hands in CX, Ops, Design, and Marketing
 
 ## 🚀 Products
 
